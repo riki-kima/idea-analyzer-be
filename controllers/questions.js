@@ -262,7 +262,10 @@ const generatePDF = async (req, res) => {
           ${overall.Intro}
         </div
         <div>
-          <img src="${overallImage}" style="width: 100%; height: 250px; margin-top: 25px;"/>
+          <img src="${overallImage.replace(
+            'https',
+            'http'
+          )}" style="width: 100%; height: 250px; margin-top: 25px;"/>
         </div>
       </div>
 
