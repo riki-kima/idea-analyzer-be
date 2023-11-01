@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Idea Analyzer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    .page {
+      display: flex;
+      flex-direction: row;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 24px;
+    }
+
+    .text {
+      color: rgb(160, 160, 160);
+      font-size: 10px;
+      margin-top: 12px;
+      font-weight: lighter;
+    }
+
+    .container {
+      padding: 0 10px 10px;
+    }
+
+    .headerLabel {
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      color: #272C51
+    }
+
+    .subHeaderLabel {
+      margin-top: 12px;
+      text-align: center;
+      font-size: 11px;
+      color: #666666
+    }
+
+    .justify {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .logo {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <div class="container">
+      <div class="headerContainer">
+        <div class='logo'>
+          <img src="http://localhost:5500/logo.png" style="width: 120px;" />
+        </div>
+        <div class="headerLabel">
+          Product Idea Analyzer
+        </div>
+        <div class="subHeaderLabel">
+          Powered by makeXnow and ChatGPT
+        </div>
+      </div>
+      <div style="margin-top: 24px;">[[[[parseComponents]]]]</div>
+    </div>
+  </div>
+</body>
+
+</html>
