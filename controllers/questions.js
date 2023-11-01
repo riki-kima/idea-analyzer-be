@@ -238,7 +238,7 @@ const generatePDF = async (req, res) => {
           Congratulations! You product idea scored in the top 10%. This earns you a free 30-minute consultation with makeXnow!
        </div>
        <div style="text-align: center; margin-top: 10px;">
-          <a href="https://www.makexnow.com/meeting" style="color: #19599E; font-size: 14px; text-align: center; font-weight: 700;">CLICK HERE TO SCHEDULE A CALL WITH US</a>
+          <a href="https://www.makexnow.com/meeting" style="color: #19599E; font-size: 14px; text-align: center; font-weight: 700;" target="_blank">CLICK HERE TO SCHEDULE A CALL WITH US</a>
        </div>
       </div>`;
 
